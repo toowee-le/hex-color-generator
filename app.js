@@ -9,4 +9,9 @@ function setBackground() {
     document.body.style.background = bgColor;
 }
 
-setBackground();
+// Change background color when spacebar is pressed
+document.body.onkeyup = e => {
+    if (e.keyCode || e.which == 32) {
+        setBackground();
+    }
+}
