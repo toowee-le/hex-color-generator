@@ -1,6 +1,6 @@
 # Hex Color Generator :art:
 
-More practice on vanilla JS
+Built a random HEX color code generator to practice more on vanilla JS. [Live demo here](https://toowee-le.github.io/hex-color-generator/). 
 
-Author
+## Author
 * Tuyet Le, [@toowee_](https://twitter.com/toowee_)
