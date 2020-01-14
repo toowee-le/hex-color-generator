@@ -1,17 +1,13 @@
 // Get color
 function getColor() {
-    return '#' + Math.random().toString(16).slice(2, 8);
-}
+    let color = '#' + Math.random().toString(16).slice(2, 8);
 
-// Set background color
-function setBackground() {
-    let bgColor = getColor();
-    document.body.style.background = bgColor;
+    document.body.style.background = color;
 }
 
 // Change background color when spacebar is pressed
 document.body.onkeyup = e => {
-    if (e.keyCode || e.which == 32) {
-        setBackground();
+    if (e.keyCode == 32 || e.which == 32) {
+        getColor();
     }
 }
