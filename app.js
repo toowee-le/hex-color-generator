@@ -7,8 +7,6 @@ function getColor() {
 
     document.body.style.background = color;
     hex.innerHTML = color;
-
-    console.log(color);
 }
 
 // Change background color when spacebar is pressed
