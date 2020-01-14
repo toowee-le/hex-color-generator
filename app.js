@@ -1,5 +1,6 @@
 // DOM elements
 const hex = document.getElementById('hex');
+const instruction = document.querySelector('span');
 
 // Get color
 function getColor() {
@@ -7,6 +8,9 @@ function getColor() {
 
     document.body.style.background = color;
     hex.innerHTML = color;
+    hex.style.color = 'white';
+    instruction.style.color = 'white';
+    instruction.style.boxShadow = 'inset 0 -0.475em #262626';
 }
 
 // Change background color when spacebar is pressed
