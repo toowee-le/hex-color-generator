@@ -8,3 +8,10 @@ body {
     transition: .3s;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
